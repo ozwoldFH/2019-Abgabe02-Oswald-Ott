@@ -1,0 +1,6 @@
+src.dir=${ant.project.name}/src/main/java/at/fhj/iit
+lib.dir=${ant.project.name}/lib
+bin.dir=${ant.project.name}/build-ant
+dist.dir=${ant.project.name}/dist
+main-class=at.fhj.iit.Main
+name=Clemens Ott und George Oswald
