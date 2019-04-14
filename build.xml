@@ -29,4 +29,10 @@
     <copy file="${lib.dir}/${ant.project.name}.jar" todir="${dist.dir}"/>
   </target>
 
+  <target name="run" depends="jar">
+    <java jar="${lib.dir}/${ant.project.name}.jar" fork="true">
+      <arg value="${name}"/>
+    </java>
+  </target>
+
 </project>
