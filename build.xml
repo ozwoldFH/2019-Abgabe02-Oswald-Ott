@@ -24,5 +24,9 @@
       </manifest>
     </jar>
   </target>
+  
+  <target name="install" depends="jar">
+    <copy file="${lib.dir}/${ant.project.name}.jar" todir="${dist.dir}"/>
+  </target>
 
 </project>
