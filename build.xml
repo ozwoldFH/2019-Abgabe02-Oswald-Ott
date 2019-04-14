@@ -7,4 +7,10 @@
     <mkdir dir="${dist.dir}"/>
   </target>  
 
+  <target name="clean">
+  	<delete dir="${lib.dir}"/>
+    <delete dir="${bin.dir}"/>
+    <delete dir="${dist.dir}"/>
+  </target>
+  
 </project>
